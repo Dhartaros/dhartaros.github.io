@@ -48,7 +48,7 @@
 								<h2 class="major">About me</h2>
 								<span class="image main"><img src="images/me.jpg" alt="" /></span>
 								<p>My name is Francisco Valdez, graduated in Computer Science at Instituto Tecnológico de Culiacán. This is my resumé, this site has everything a potential employer needs to know about myself.</p>
-								<p>You can see a bit of my <a href="#work">awesome work</a>, most of it was done while working at <a href="http://www.poluxclick.com" target="_blank">Pólux Click</a>, the rest of it was done as a freelance.</p>
+								<p>You can see a bit of what I've <a href="#work">worked on</a>, most of it was done while working at <a href="http://www.poluxclick.com" target="_blank">Pólux Click</a>, the rest of it was done as a freelance.</p>
 								<p>Spanish is my native language, but I also am proficient in English. I am actually taking courses to learn German, as my dream is to continue my studies and work in Germany.</p>
 							</article>
 
@@ -60,17 +60,14 @@
 						<!-- Skills -->
 							<article id="skills">
 								<h2 class="major">Skills</h2>
-								<section id="skill_list" class="col-left"></section>
+								<section id="skill_list"></section>
 							</article>
 
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
 								<!-- My email is no secret, but be sure to contact me through the form -->
-								<form method="post" action="https://formspree.io/frankvaldez@outlook.com">
-									<input type="hidden" name="_next" value="https://dhartaros.github.io" />
-									<input type="hidden" name="_format" value="plain" />
-									<input type="text" name="_gotcha" style="display:none" />
+								<form id="form" method="post" action="//formspree.io/frankvaldez@outlook.com">
 									<div class="field half first">
 										<label for="name">Name</label>
 										<input type="text" name="name" id="name" />
@@ -83,6 +80,9 @@
 										<label for="message">Message</label>
 										<textarea name="message" id="message" rows="4"></textarea>
 									</div>
+									<input type="hidden" name="_next" value="https://dhartaros.github.io" />
+									<input type="hidden" name="_format" value="plain" />
+									<input type="text" name="_gotcha" style="display:none" />
 									<ul class="actions">
 										<li><input type="submit" value="Send Message" class="special" /></li>
 										<li><input type="reset" value="Reset" /></li>
@@ -115,7 +115,7 @@
 			<script src="assets/js/main.min.js"></script>
 			<script src="skills.json"></script>
 			<script src="work.json"></script>
-			<script src="assets/js/more.js"></script>
+			<script src="assets/js/more.min.js"></script>
 
 	</body>
 </html>
