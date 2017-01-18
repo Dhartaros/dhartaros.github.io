@@ -6,3 +6,14 @@
 	-moz-column-gap: 4em; /* Firefox */
 	column-gap: 4em;
 }
+#logo {
+	margin-top: 0rem;
+	background: none;
+}
+#logo:before {
+	background: none !important;
+}
+
+.logo {
+	border: 2px solid #FFF !important;
+}
